@@ -29,6 +29,7 @@ export class AppService {
         transporte.unidades_operacion = dato.unidades_operacion;
 
         await this.transporteRepository.save(transporte);
+        return 'Datos extraídos y almacenados correctamente.';
       }
 
       console.log('Datos extraídos y almacenados correctamente.');

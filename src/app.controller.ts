@@ -13,5 +13,6 @@ export class AppController {
   @Get('transporte')
   async obtenerTodos() {
     return await this.appService.obtenerTodos();
+    
   }
 }

@@ -24,3 +24,4 @@ import { Transporte } from './entities/transporte.entity';
   
 })
 export class AppModule {}
+
